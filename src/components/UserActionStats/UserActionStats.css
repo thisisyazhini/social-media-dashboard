@@ -1,0 +1,26 @@
+.user-action-stats-card {
+  border-radius: 10px;
+  box-shadow: 5px 5px whitesmoke;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.action-name {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.data-row {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.action-stat {
+  font-size: 18px;
+  font-weight: 700;
+}

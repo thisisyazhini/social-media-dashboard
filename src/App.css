@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
+  background-color: #f9fafe;
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 35px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p,
+body {
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  max-width: 100%;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content-section {
+  overflow: auto;
+  max-height: 100vh;
+  padding-right: 20px;
+}
+.sub-sections {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 25px;
+}
+.sub-section-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.sub-section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-media-stats {
+  display: flex;
+  gap: 20px;
+}
+.action-stats {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
 }

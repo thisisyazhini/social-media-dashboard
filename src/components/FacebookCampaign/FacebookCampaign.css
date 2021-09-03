@@ -1,0 +1,55 @@
+.campaign-card {
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px whitesmoke;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.campaign-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.font-style {
+  font-size: 15px;
+}
+.button-style {
+  padding: 8px 14px;
+  background-color: #0aaf60;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.row-info {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.number-style {
+  font-size: 25px;
+}
+.goal-text {
+  font-size: 12px;
+}
+.user-image-style {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 5px black solid;
+}
+.user-image-style:not(:nth-child(1)) {
+  margin-left: -18px;
+}
+.number-text {
+  font-size: 15px;
+  font-weight: 700;
+}
+.small-text {
+  margin-top: 18px;
+  font-size: 10px;
+}

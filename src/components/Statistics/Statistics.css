@@ -1,0 +1,22 @@
+.header-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+.statistics-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.calendar-styling {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+.dropdown-styling {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #363636;
+}

@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.notification-bell {
+  position: relative;
+}
+.notification-dot {
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: red;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.user-icon-style {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user-name-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.name-arrow-styling {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+.name-arrow-styling svg {
+  margin-left: 8px;
+}
+.id-styling {
+  color: #9fa0a4;
+  font-size: 12px;
+  font-weight: 500;
+}
