@@ -13,7 +13,6 @@ export default function FacebookCampaign(props) {
           <br />
           <span className="goal-text">Followers today</span>
         </div>
-        <hr />
         <div className="number-style">
           {props.followersGoalCount.toLocaleString()}
           <br />

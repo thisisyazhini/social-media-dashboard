@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .font-style {
-  font-size: 15px;
+  font-size: 13.5px;
 }
 .button-style {
   padding: 8px 14px;
@@ -33,12 +33,16 @@
 .number-style {
   font-size: 25px;
 }
+.number-style:nth-child(2) {
+  padding-left: 8px;
+  border-left: 1px solid white;
+}
 .goal-text {
   font-size: 12px;
 }
 .user-image-style {
-  width: 35px;
-  height: 35px;
+  width: 31px;
+  height: 31px;
   border-radius: 50%;
   border: 5px black solid;
 }

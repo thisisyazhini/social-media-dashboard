@@ -42,7 +42,7 @@ export default function Statistics(props) {
           </span>
         </div>
       </div>
-      <Bar width={720} height={200} data={props.data} options={props.options} />
+      <Bar width={700} height={180} data={props.data} options={props.options} />
     </div>
   );
 }

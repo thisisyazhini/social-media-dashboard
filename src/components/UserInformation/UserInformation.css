@@ -11,10 +11,12 @@
 }
 .verified-style {
   position: absolute;
+  top: 5px;
+  right: 52px;
   background-color: #cce5ff;
   border-radius: 50%;
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   display: inline-block;
 }
 .image-style {

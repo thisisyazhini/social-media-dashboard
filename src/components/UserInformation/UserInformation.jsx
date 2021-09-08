@@ -9,8 +9,8 @@ export default function UserInformation(props) {
         <svg
           className="verified-style"
           xmlns="http://www.w3.org/2000/svg"
-          width="12"
-          height="12"
+          width="8"
+          height="8"
           viewBox="0 0 24 24"
           fill="none"
           stroke="#4B5965"
