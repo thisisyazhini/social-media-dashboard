@@ -1,5 +1,5 @@
 import "./App.css";
-import SocialMediaStats from "./components/socialMediaStatsComponent/SocialMediaStats";
+import SocialMediaStats from "./components/SocialMediaStatsComponent/SocialMediaStats";
 import UserActionStats from "./components/UserActionStats/UserActionStats";
 import FacebookCampaign from "./components/FacebookCampaign/FacebookCampaign";
 import UserInformation from "./components/UserInformation/UserInformation";
