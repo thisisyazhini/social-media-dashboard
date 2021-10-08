@@ -2,7 +2,9 @@
 
 This is a react dashboard that shows a user's social media statistics.
 
-[!image] https://github.com/thisisyazhini/SocialMediaDashboard/raw/main/public/socialmedia.jpg
+
+![WebApp-Snip](https://github.com/thisisyazhini/SocialMediaDashboard/raw/main/public/socialmedia.jpg) 
+
 
 Uses react-chartjs-2 and react-circular-progressbar packages to show the bar chart, line charts and the circular progressbar respectively.
 
